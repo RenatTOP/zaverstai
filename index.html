@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Zaverstai</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="nav">
+                <li class="img"><a href="/index.html"><img src="/images/logo.png" alt="logo" /></a></li>
+                <li><a href="#posts">Статьи</a></li>
+                <li><a href="#about">Обо мне</a></li>
+                <li><a href="#portfolio">Портфолио</a></li>
+                <li><a href="#feedback">Написать мне</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="headerimg"></section>
+    <main class="page">
+        <section id="posts" class="posts">
+            <div class="header-posts">
+                <h2>Все статьи</h2>
+                <select class="filter" name="thems" id="thems">
+                    <option selected value="all">Все темы</option>
+                    <option value="sity">Город</option>
+                    <option value="books">Книги</option>
+                    <option value="travels">Путешествия</option>
+                    <option value="recipes">Рецепты</option>
+                    <option value="photo">Фотографии</option>
+                </select>
+            </div>
+            <div class="posts-m">
+                <div class="post-m-detail news" data-category="travels">
+                    <a href="/page.html"><img src="/images/post-m1.jpg" alt=""></a>
+                    <div class="description">
+                        <h3>Путешествие в Берлин в августе</h3>
+                        <span>Летний месяц я провела в столице Германии вместе с друзьями. И вот как это было</span>
+                        <br><br>
+                        <span>Теги: путешествия</span>
+                        <span>29.09.2020</span>
+                    </div>
+                </div>
+                <div class="post-m-detail news" data-category="sity">
+                    <a href="/page.html"><img src="/images/post-m2.jpg" alt=""></a>
+                    <div class="description">
+                        <h3>Где выпить колдбрю в Москве</h3>
+                        <span>Собрала для вас список любимых кофеен, где подают лучший летний напиток.</span>
+                        <br><br>
+                        <span>Теги: город</span>
+                        <span>24.07.2020</span>
+                    </div>
+                </div>
+                <div class="post-m-detail news" data-category="books">
+                    <a href="/page.html"><img src="/images/post-m3.jpg" alt=""></a>
+                    <div class="description">
+                        <h3>Прочитано: книжные рекомендации</h3>
+                        <span>Рассказываю о прочитанных за последнее время книгах: фавориты и провалы.</span>
+                        <br><br>
+                        <span>Теги: книги</span>
+                        <span>15.07.2020</span>
+                    </div>
+                </div>
+            </div>
+            <div class="posts-b">
+                <div class="post-b-detail news" data-category="photo">
+                    <a href="/page.html"><img src="/images/post-b1.jpg" alt=""></a>
+                    <div class="description">
+                        <h3>Снимки на плёнку</h3>
+                        <span>Поделилась с вами весенними фотографиями, и секретами удачных снимков.</span>
+                        <br><br>
+                        <span>Теги: фотографии</span>
+                        <span>29.06.2020</span>
+                    </div>
+                </div>
+                <div class="post-b-detail news" data-category="recipes">
+                    <a href="/page.html"><img src="/images/post-b2.jpg" alt=""></a>
+                    <div class="description">
+                        <h3>Домашний чизкейк</h3>
+                        <span>Что может быть лучше чизкейка с сезонными ягодами? Только домашний чизкейк!</span>
+                        <br><br>
+                        <span>Теги: рецепты</span>
+                        <span>24.06.2020</span>
+                    </div>
+                </div>
+            </div>
+            <button>Показать ещё</button>
+        </section>
+        <section id="about" class="about">
+            <h2>Обо мне</h2>
+            <div class="about-contain">
+                <div class="about-img">
+                    <img src="/images/about.jpg" alt="">
+                </div>
+                <div class="about-text">
+                    <div>
+                        Всем привет! Меня зовут Аня, и это мой личный блог.
+                        Здесь ты найдёшь рассказы о моих путешествиях, снимки
+                        на плёнку, рецепты, обзоры на книги. В общем, тексты о том,
+                        что мне инетресно.
+                        <br><br>
+                        Я работаю копирайтером, поэтому мой блоге — это ещё и моё
+                        портфолио. Ниже размещены несколько моих лучших
+                        рабочих текстов. Буду рада новым сотрудничествам!
+                        <br><br>
+                        Если вы хотите написать мне — это можно сделать в соцсетях
+                        или через форму. Всегда приятно услышать обратную связь
+                        от читателей и познакомиться поближе.
+                        <br><br>
+                        Приятного чтения!
+                    </div>
+                    <blockquote>
+                        Я верю, что каждый раз пробуя новое, выходящее за зону моего
+                        комфорта, я действительно узнаю настояющую себя.
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+        <section id="portfolio" class="portfolio">
+            <h2>Портфолио</h2>
+            <div class="portfolio-list">
+                <div class="description">
+                    <h3>Блог HTML Academy</h3>
+                    <h4>«Как учиться продуктивно»</h4>
+                    <div>Про основные методы обучения, которые помогут быстро и надолго запомнить информацию.</div>
+                </div>
+                <div class="description">
+                    <h3>Журнал «LNK»</h3>
+                    <h4>«Зачем поцели нужны человеку? И какие они бывают»</h4>
+                    <div>Поцелуи — повсеместная ежедневная практика. Но зачем люди целуются?
+                        Какие смысли вкладывают в этот ритуал? И где корни этой практики?</div>
+                </div>
+                <div class="description">
+                    <h3>Журнал «Т — Л»</h3>
+                    <h4>«Советы по эффективной удалённой работе»</h4>
+                    <div>Поделилась лайфхаками, которые помогают мне работать продуктивно из дома. </div>
+                </div>
+            </div>
+            <button>Показать ещё</button>
+        </section>
+        <section id="feedback" class="feedback">
+            <h2>Написать мне</h2>
+            <form class="feedback-form" action="">
+                <label for="name">Ваше имя</label>
+                <label for="email">Email</label>
+                <br>
+                <input type="text" name="name" id="name" placeholder="Иван Иванов" required>
+                <input type="email" name="email" id="email" placeholder="google@gmail.com" required>
+                <br>
+                <label for="message">Сообщение</label>
+                <br>
+                <textarea name="message" id="message" placeholder="Напишите здесь ваше сообщение." minlength="10" maxlength="200" required></textarea>
+                <br>
+                <button type="submit">ОТПРАВИТЬ</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="#">ВК</a></li>
+            <li><a href="#">Телеграм</a></li>
+            <li><a href="#">Инстаграм</a></li>
+            <li><a href="#">Твиттер</a></li>
+        </ul>
+    </footer>
+    <script src="/script.js"></script>
+</body>
+
+</html>
