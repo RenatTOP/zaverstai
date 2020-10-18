@@ -76,13 +76,13 @@ nav {
 .headerimg {
     max-height: 581px;
     min-height: 581px;
-    background: url("/images/headerbg.jpg");
+    background: url("https://renattop.github.io/zaverstai/images/headerbg.jpg");
 }
 
 .page-headerimg {
     max-height: 581px;
     min-height: 581px;
-    background: url("/images/page-header.jpg");
+    background: url("https://renattop.github.io/zaverstai/images/page-header.jpg");
 }
 
     ul.nav {
@@ -90,8 +90,6 @@ nav {
     }
 
         nav img {
-            /* min-width: 130px;
-            min-height: 82px; */
             max-width: 130px;
             max-height: 82px;
         }
@@ -344,18 +342,18 @@ nav {
         }
 
         .portfolio-list .description:first-child {
-            background: url("/images/portfolio1.jpg") no-repeat;
+            background: url("https://renattop.github.io/zaverstai/images/portfolio1.jpg") no-repeat;
             background-size: 100% 100%;
         }
 
         .portfolio-list .description:nth-child(2) {
-            background: url("/images/portfolio2.jpg") no-repeat;
+            background: url("https://renattop.github.io/zaverstai/images/portfolio2.jpg") no-repeat;
             background-size: 100% 100%;
             color: #FFFFFF;
         }
 
         .portfolio-list .description:last-child {
-            background: url("/images/portfolio3.jpg") no-repeat;
+            background: url("https://renattop.github.io/zaverstai/images/portfolio3.jpg") no-repeat;
             background-size: 100% 100%;
         }
 
@@ -401,7 +399,7 @@ nav {
         padding-bottom: 50px;
         text-align: center;
         border-radius: 10px;
-        background: url("/images/form.jpg") 60% 40% no-repeat;
+        background: url("https://renattop.github.io/zaverstai/images/form.jpg") 60% 40% no-repeat;
     }
 
         .feedback-form label {
